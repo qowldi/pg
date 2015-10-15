@@ -3809,6 +3809,6 @@ main(int argc, char *argv[])
 		   QUOTE_PATH, pgdata_native, QUOTE_PATH,
 	   QUOTE_PATH, bin_dir, (strlen(bin_dir) > 0) ? DIR_SEP : "", QUOTE_PATH,
 		   QUOTE_PATH, pgdata_native, QUOTE_PATH);
-
+	printf("kk");
 	return 0;
 }
